@@ -22,7 +22,7 @@ public class CalculatorSpec {
     @test
     public void test$cube(){
         double expectedValue = 27;
-        double actualValue = calcualte.cube(3);
+        double actualValue = calculator.cube(3);
         assertEquals("This should evaluate to 27", expectedValue, actualValue, delta);
     }
 
