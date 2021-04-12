@@ -19,7 +19,7 @@ public class CalculatorSpec {
 
     double delta = 1e-15;
 
-    @test
+    @Test
     public void test$cube(){
         double expectedValue = 27;
         double actualValue = calculator.cube(3);
